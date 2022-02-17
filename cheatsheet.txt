@@ -1,0 +1,259 @@
+Main:
+
+public static void main(String[] args) {
+
+}
+
+
+Variables:
+
+String cadena = "Hola mundo";
+int numero = 12;
+double numeroComplejo = 12.05;
+boolean esVerdad = false;
+
+
+Constantes:
+
+final String cadenaConstante = "Hola mundo";
+final int numeroConstante = 12;
+final double  numeroComplejoConstante = 12.05;
+final boolean esVerdadConstante = false;
+
+
+Mostrar datos por consola:
+
+System.out.println("Hola mundo!");
+
+
+Pedir datos por consola:
+
+Scanner scanner = new Scanner(System.in);
+System.out.println("Introduzca un dato:");
+String dato1 = scanner.nextLine();
+System.out.println("Introduzca un número:");
+int numero1 = scanner.nextInt();
+scanner.close();
+
+
+IF:
+
+if (0 < 1) {
+
+} else if (0 > 1) {
+
+} else {
+
+}
+
+
+Switch:
+
+switch (valor) {
+    case "a":
+        // Código
+        break;
+
+    case "b":
+        // Código
+        break;
+
+    default:
+}
+
+
+while:
+
+while (0 < 1) {
+
+}
+
+
+do - while:
+
+do {
+    // Código
+} while (0 < 1);
+
+
+for:
+
+for (int i = 0; i < 10; i++) {
+    // Código
+}
+
+for (int j = 0; j < array.length; i++) {
+    // Código
+}
+
+
+Arrays:
+
+int[] array1 = {1, 2, 3, 4, 5};
+int array2[] = {1, 2, 3, 4, 5};
+String array3[] = new String[3];
+// Primera posición
+array3[0];
+// Última posición
+array3[array3.length - 1];
+
+
+ArrayLists:
+
+ArrayList<Integer> arrayList1 = new ArrayList<Integer>();
+ArrayList<String> arrayList2 = new ArrayList<String>();
+// Añadir elemento
+arrayList1.add(1);
+// Poner elemento en posicion
+arrayList1.set(0, 2);
+// Obtener elemento en posición
+arrayList1.get(0);
+// Obtener tamaño
+arrayList1.size();
+
+
+Propiedad variable de clase:
+
+public static String cadena = "cadena";
+public static int numero = 10;
+
+
+Propiedad constante de clase:
+
+public static final String cadena = "cadena";
+public static final int numero = 10;
+
+
+Método de clase:
+
+public static void metodo1() {
+
+}
+
+public static String metodo2() {
+
+}
+
+public static int[] metodo3() {
+
+}
+
+
+Método de clase con argumentos:
+
+public static void metodo1(String argumento1) {
+
+}
+
+pubic static void metodo2(String argumento1, int argumento2) {
+
+}
+
+
+Instanciar clase:
+
+Clase instancia = new Clase();
+
+
+Constructor:
+
+public class Clase {
+    public Clase() {
+
+    }
+}
+
+
+Método de clase no estático:
+
+public void metodo1() {
+
+}
+
+public String metodo2() {
+
+}
+
+public int[] metodo3() {
+
+}
+
+
+Método de clase no estático con argumentos:
+
+public void metodo1(String argumento1) {
+
+}
+
+pubic void metodo2(String argumento1, int argumento2) {
+
+}
+
+
+Getters y setters:
+
+public class Clase {
+    private String propiedad1;
+    private int propiedad2;
+
+    public Clase() {
+
+    }
+
+    public String getPropiedad1() {
+        return this.propiedad1;
+    }
+
+    public void setPropiedad1(String propiedad1) {
+        this.propiedad1 = propiedad;
+    }
+
+    public int getPropiedad2() {
+        return this.propiedad2;
+    }
+
+    public void setPropiedad2(int propiedad2) {
+        this.propiedad2 = propiedad2;
+    }
+}
+
+
+toString:
+
+public class Clase {
+    private String propiedad1;
+    private int propiedad2;
+
+    public Clase() {
+
+    }
+
+    public String getPropiedad1() {
+        return this.propiedad1;
+    }
+
+    public void setPropiedad1(String propiedad1) {
+        this.propiedad1 = propiedad;
+    }
+
+    public int getPropiedad2() {
+        return this.propiedad2;
+    }
+
+    public void setPropiedad2(int propiedad2) {
+        this.propiedad2 = propiedad2;
+    }
+
+    public String toString() {
+        return "propiedad1: " + this.getPropiedad1() + " | propiedad2: " + this.getPropiedad2();
+    }
+}
+
+
+try - catch:
+
+try {
+    // Operación que se intenta hacer
+} catch (Error e) {
+    // Código en caso de error
+}
